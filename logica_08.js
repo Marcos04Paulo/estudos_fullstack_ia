@@ -5,7 +5,7 @@ function consultarIA(pergunta){
     //setTimeout cria um atraso artificial
     setTimeout(function(){
       resolve("Resposta gerada para: " + pergunta)
-    }, 3000) //2000 milissegundos = 2 segundos
+    }, 2000) //2000 milissegundos = 2 segundos
   })
 }
 
